@@ -20,12 +20,12 @@ LDAP database require login choose "no"
 
 ## Copy auto.users, auto.master & fullchain.pem
 ```
-scp cse@172.27.19.100:/home/cse/auto.users .
-scp cse@172.27.19.100:/home/cse/auto.master .
-scp cse@172.27.19.10:/home/cse/fullchain.pem .
+scp cse@host_name:/home/cse/auto.users .
+scp cse@host_name:/home/cse/auto.master .
+scp cse@host_name:/home/cse/fullchain.pem .
 ```
 
-## Move file to directory
+## Move file 
 ```
 mv fullchain.pem /etc/ssl/certs
 mv auto* /etc
