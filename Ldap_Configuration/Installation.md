@@ -42,9 +42,9 @@ vim /etc/nsswitch.conf
 ```
 systemctl status autofs
 
-systemctl enable autofs
-
 systemctl status nscd
+
+systemctl enable autofs
 
 systemctl enable nscd
 ```
