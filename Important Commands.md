@@ -1,4 +1,4 @@
-# To Check File Properties
+## To Check File Properties
 
 ```
 du -h --max-dept=1 .
