@@ -1,4 +1,4 @@
-# Google Chrome Installation
+## Google Chrome Installation
 
 Step 1: Download Package
 ```
