@@ -12,5 +12,17 @@ Step 2: Now edit file if file
 01-network-manager-all.yaml.
 
 ```
-
-## Note:- If you do not see any files, you can create one. The name could be anything, but by convention, it should start with a number like 01- and end with .yaml. The number sets the priority if you have more than one configuration file.
+Step 3: Enter these enteries
+```
+# Let NetworkManager manage all devices on this system
+network:
+  version:2
+  renderer: networkd
+  ethernets:
+      enp12s0:
+          dhcp: no
+          addresses: [172.27.#.#/16]
+          gateway4: 172.27.16.#
+          nameservers:
+              addresses: [172.27.16.#]
+```
