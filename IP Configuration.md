@@ -27,3 +27,6 @@ network:
                addresses: [172.27.16.#]
 
 ```
+```
+netplan apply
+```
