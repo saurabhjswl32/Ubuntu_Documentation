@@ -3,7 +3,7 @@ Step 1: Check
 ```
 timedatectl
 ```
-Output :-   System clock synchronized: yes
+Output :-   System clock synchronized: yes \n
             NTP service: active
             RTC in local TZ: no
 
