@@ -3,9 +3,10 @@ Step 1: Check
 ```
 timedatectl
 ```
-Output :-   System clock synchronized: yes </br>
-            NTP service: active
-            RTC in local TZ: no
+Output :-  </br>
+System clock synchronized: yes </br>
+NTP service: active </br>
+RTC in local TZ: no
 
 
 Step 2:
